@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:wheat;
+}
+#main-doc{
+      display: block;
+}
+
+#navbar header{
+    font-size: 2rem;
+    color: white;
+}
+
+#navbar{
+    position: fixed;
+        text-decoration: none;
+        width: 10vw;
+        min-width: 300px;
+        left: 0px;
+        border-right: 1px solid #000;
+        background-color: #555;
+        height: 100%;
+        text-align: center;
+}
+
+#navbar a{
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    margin: 19px;
+    color :white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+hr{
+    border: 3px solid black;
+}
